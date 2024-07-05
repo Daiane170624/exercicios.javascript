@@ -25,7 +25,7 @@ console.log (frutas)
 
 //ex5
 let numeros= [1,2,3,4,5]
-console.log (numero[0], numero[4])
+console.log (numeros[0], numeros[4])
 
 //ex6
 let cores = ['vermelho ','verde', 'azul']
@@ -74,3 +74,36 @@ console.log ("sabado");
  break
 
 }  }
+// ex10
+for ( i=1; i<=10 ; i++){
+    console.log (i)
+}
+
+//ex 11
+let contador =1
+while ( contador <=5) {
+   console.log (contador)
+    contador ++;
+}
+//ex13
+let valores= [10, 20, 30, 40,50]
+let soma = 0 
+for (let i=0; i< valores.length ; i++) {
+    soma=+valores [i]}
+    console.log ('Ex. 13: A soma é : ',soma);
+
+    //ex 14
+    let maior=0, n = 0
+    while (n< vetor.length) {
+        if (vetor[n]> maior) {
+            maior= vetor [n]
+        } n++
+    } console.log ('Ex. 14: O maior número é ', maior );
+
+    //ex 17
+    for (i= 1; i<=; i++) {
+    if (i % 2 == 0 ) {
+        console.log (i, 'é par'); 
+    } else {
+    console.log ( i,'é impar') ;
+    }
